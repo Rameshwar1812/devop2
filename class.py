@@ -6,7 +6,7 @@ def guess_the_number():
     print("You have 10 attempts to guess the correct number. Let's start!")
 
     # Generate a random number between 1 and 100
-    target_number = random.randint(1, 100)
+    target_number = random.randint(1, 40)
     attempts = 10
 
     for attempt in range(1, attempts + 1):
